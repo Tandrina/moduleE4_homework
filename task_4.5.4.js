@@ -64,3 +64,9 @@ class NewComp extends App {
 
 const newComputer = new NewComp();
 const fridge = new OldFridge();
+
+fridge.frozenTemp(20, true);
+console.log(fridge.color);
+
+newComputer.costPower(235);
+newComputer.turnCooler(8, 45);
