@@ -61,7 +61,6 @@ class NewComp extends App {
     }
 }
 
-
 const newComputer = new NewComp();
 const fridge = new OldFridge();
 
